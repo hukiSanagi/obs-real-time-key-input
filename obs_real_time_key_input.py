@@ -12,7 +12,7 @@ listener_thread = None
 text_name = ""
 
 def script_description():
-    return "test"
+    return "キー入力をリアルタイムで受け取るスクリプトです。テストとして選択したText Sourceに入力キーが表示されるようになっています。"
 
 def script_properties():
     props = obs.obs_properties_create()
